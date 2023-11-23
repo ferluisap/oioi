@@ -1,0 +1,31 @@
+Tema: Mercado (compras,produtos em estoque, pagamentos)
+
+//a classe Mercado refere-se ao pilar da abstraçao, pois é generica
+Classe: Mercado
+
+-valor (estoque, pagamentos das compras, salário funcionarios)
+
+function CalcularValores( )
+R= ValorA + ValorB
+
+    sub-classe: compras
+        function CalcularValores(impt1, impt2)
+//calcular o valor, somando os produtos, para das o valor final da compras
+//usado o pilar da herança, pois reutilizou a function Calcularvalores dentro da sub-classe
+
+    sub-classe pagamento
+        function CalcularValores(num1+num2)
+//num 1: horas trabalhadas; num2: horas extras
+//somar as horas trabalhadas, usado polimorfismo, pois adiciona parametros, modifica uma função já existente
+//adicionar valor final a uma variavel:
+    Horas = CalcularValores
+
+         private.function CalcularSalario(Horas, 25,00)//25,00 = é um número imaginado, quanto o trabalhador ganha por hora
+//privado a funçao de CalcularSalario, por ser um salario fixo e nao poder ser alterado, pilar do encapsulamento
+         R= Horas x(vezes) 25,00
+
+    sub-classe produtos em estoque
+        function CalcularProd()
+            R= a - b
+
+//calcular a quantidade de produtos no estoque, sendo a: quantidade total dos produtos, b: produtos comprados
